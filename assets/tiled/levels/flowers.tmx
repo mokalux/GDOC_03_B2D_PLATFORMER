@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="2021.03.23" orientation="orthogonal" renderorder="right-down" width="160" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="300">
+ <editorsettings>
+  <export target="flowers.lua" format="lua"/>
+ </editorsettings>
+ <imagelayer id="11" name="Image Layer 1" offsetx="16" offsety="10">
+  <image source="flowers/obj0012.png" width="2725" height="481"/>
+ </imagelayer>
+ <objectgroup color="#8000aaff" id="13" name="grounds">
+  <object id="124" name="groundB" x="-156" y="448">
+   <polygon points="0,0 68,16 68,32 0,16"/>
+  </object>
+  <object id="276" name="groundB" x="16" y="488" width="2528" height="16"/>
+  <object id="277" name="groundB" x="0" y="0" width="16" height="504"/>
+  <object id="278" name="groundB" x="16" y="0" width="2528" height="16"/>
+  <object id="279" name="groundB" x="2544" y="0" width="16" height="504"/>
+  <object id="280" name="groundB" x="16" y="400" width="2528" height="16"/>
+ </objectgroup>
+ <objectgroup color="#55ffff" id="8" name="sensors">
+  <object id="232" name="ladder" x="-296" y="188" width="8" height="320"/>
+  <object id="282" name="exit" x="2512" y="276" width="31" height="124"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" id="18" name="collectibles">
+  <object id="275" name="c01" x="232" y="392">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="283" name="c01" x="248" y="380">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="284" name="c01" x="264" y="372">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="285" name="c01" x="280" y="380">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="286" name="c01" x="296" y="392">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="17" name="ladders">
+  <object id="231" name="ladder" x="-304" y="188" width="24" height="320"/>
+ </objectgroup>
+ <objectgroup color="#80ff00ff" id="16" name="ptpfs">
+  <object id="185" name="ptpf" x="-228" y="420">
+   <polygon points="0,-4 68,-16 144,-4 144,1 68,-11 0,1"/>
+  </object>
+  <object id="269" name="ptpf" x="-160" y="356" width="60" height="8"/>
+ </objectgroup>
+ <objectgroup color="#80005500" id="2" name="mvpfs">
+  <object id="70" name="mvpf_S164" x="-160" y="308" width="64" height="8"/>
+ </objectgroup>
+ <objectgroup color="#ff0000" id="14" name="playable">
+  <object id="146" name="walkerA" x="1524" y="344" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="147" name="walkerA" x="1852" y="340" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="149" name="walkerA" x="2228" y="344" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="288" name="walkerA" x="580" y="340" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="290" name="friendlyflyerB" x="344" y="272" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="291" name="friendlyflyerB" x="1240" y="264" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="292" name="friendlyflyerA" x="2024" y="268" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="293" name="friendlyflyerA" x="816" y="256" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="294" name="friendlyflyerA" x="1372" y="268" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="295" name="walkerBossA" x="2340" y="208" width="131" height="164">
+   <ellipse/>
+  </object>
+  <object id="299" name="player1" x="32" y="332" width="51" height="48">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#aaff7f" id="7" name="fg" locked="1"/>
+ <objectgroup color="#ffaaff" id="10" name="test">
+  <object id="87" name="player1" x="224" y="580" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="221" name="player1j" x="92" y="568" width="43" height="60">
+   <ellipse/>
+  </object>
+  <object id="223" name="player1" x="676" y="592" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="265" name="player1" x="384" y="588" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="266" name="player1j" x="528" y="572" width="43" height="60">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

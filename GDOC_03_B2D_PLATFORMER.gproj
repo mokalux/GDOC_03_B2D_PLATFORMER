@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+ <properties backgroundColor="#ffffff" windowHeight="0" version_code="1" win_org="GiderosMobile" tv_icon="" encryptCode="1" splash_h_image="" ios_bundle="com.yourdomain." touchToMouse="1" architecture="2" app_icon="" windowWidth="0" winrt_org="GiderosMobile" html5_host="" osx_bundle="com.yourdomain." retinaDisplay="0" mainluaOnly="0" vsync="1" osx_category="5" win_domain="giderosmobile.com" version="1.0" exportMode="0" osx_signingId="" mouseTouchOrder="0" html5_symbols="0" fps="60" html5_pwa="0" html5_fbload="100" autorotation="0" iosDevice="0" html5_wasm="0" disableSplash="0" html5_mem="256" osx_org="GiderosMobile" osx_domain="giderosmobile.com" html5_fbinstant="0" macos_bundle="com.yourdomain.yourapp-macos" scaleMode="6" build_number="1" logicalHeight="1280" macos_category="5" html5_pack="0" logicalWidth="720" orientation="1" splash_v_image="" osx_installerId="" mouseToTouch="1" winrt_package="com.yourdomain.yourapp" splashScaleMode="0" atv_bundle="com.yourdomain.yourapp-atv" encryptAssets="1" html5_crash="" app_name="gideros_box2d">
+  <imageScales/>
+  <plugins>
+   <plugin enabled="1" name="Easing"/>
+   <plugin enabled="1" name="JSON"/>
+   <plugin enabled="1" name="LiquidFun"/>
+   <plugin enabled="1" name="Ogg"/>
+   <plugin enabled="1" name="SceneManager"/>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property value="" name="androidPath"/>
+    <property value="" name="androidSdk"/>
+    <property value="30" name="androidTarget"/>
+    <property value="" name="androidTools"/>
+    <property value="0" name="buildAab"/>
+    <property value="1" name="buildApk"/>
+    <property value="0" name="deployApk"/>
+    <property value="" name="javaPath"/>
+    <property value="" name="keyAlias"/>
+    <property value="" name="keyStore"/>
+    <property value="com.yourdomain.yourapp" name="packageName"/>
+    <property value="0" name="timestampApk"/>
+   </export>
+  </exports>
+ </properties>
+ <folder name="audio">
+  <file name="assets/audio/Collectibles_1.wav"/>
+  <file name="assets/audio/Collectibles_3.wav"/>
+  <file name="assets/audio/DM-CGS-16.ogg"/>
+  <file name="assets/audio/DM-CGS-19.wav"/>
+  <file name="assets/audio/Loose_7.wav"/>
+  <file name="assets/audio/Loose_9.wav"/>
+  <file name="assets/audio/Win_2.wav"/>
+  <file name="assets/audio/Wind howl.wav"/>
+  <file name="assets/audio/amb_waterfall.ogg"/>
+  <file name="assets/audio/dinosaur-1.wav"/>
+  <file name="assets/audio/dinosaur-2.wav"/>
+  <file name="assets/audio/dinosaur-3.wav"/>
+  <file name="assets/audio/dinosaur-4.wav"/>
+  <file name="assets/audio/dinosaur-5.wav"/>
+  <file name="assets/audio/hit-1.wav"/>
+  <file name="assets/audio/hit-2.wav"/>
+  <file name="assets/audio/impactGlass_heavy_001.ogg"/>
+  <file name="assets/audio/jump.wav"/>
+  <file name="assets/audio/shoot.wav"/>
+  <file name="assets/audio/wood-1.wav"/>
+  <file name="assets/audio/wood-2.wav"/>
+  <file name="assets/audio/wood-3.wav"/>
+  <file name="assets/audio/wood-4.wav"/>
+  <file name="assets/audio/wood-5.wav"/>
+ </folder>
+ <folder name="classes">
+  <file name="assets/classes/GCam.lua"/>
+  <file name="assets/classes/buttonMonster.lua"/>
+  <file excludeFromExecution="1" name="assets/classes/mobileX.lua"/>
+  <file name="assets/classes/mobileX2.lua"/>
+  <file name="assets/classes/save_prefs.lua"/>
+  <file name="assets/classes/textfield.lua"/>
+ </folder>
+ <folder name="fonts">
+  <file name="assets/fonts/Cabin-Regular-TTF.ttf"/>
+ </folder>
+ <folder name="gfx">
+  <folder name="collectibles">
+   <file name="assets/gfx/collectibles/collectibles.lua"/>
+   <file name="assets/gfx/collectibles/obj0071.png"/>
+  </folder>
+  <folder name="fx">
+   <file name="assets/gfx/fx/bat-1-part.png"/>
+   <file name="assets/gfx/fx/bat-2-part.png"/>
+   <file name="assets/gfx/fx/fx.lua"/>
+   <file name="assets/gfx/fx/smoke.png"/>
+  </folder>
+  <folder name="grounds">
+   <file name="assets/gfx/grounds/ladder01.png"/>
+   <file name="assets/gfx/grounds/ladder02.png"/>
+  </folder>
+  <folder name="menu">
+   <file name="assets/gfx/menu/06_banksy_palestine.jpg"/>
+  </folder>
+  <folder name="playable">
+   <file name="assets/gfx/playable/Bob.png"/>
+   <file name="assets/gfx/playable/George.png"/>
+   <file name="assets/gfx/playable/Leela.png"/>
+   <file name="assets/gfx/playable/Stan.png"/>
+   <file name="assets/gfx/playable/bat_fly.png"/>
+   <file name="assets/gfx/playable/bflyA.png"/>
+   <file name="assets/gfx/playable/bflyB.png"/>
+   <file name="assets/gfx/playable/bflyC.png"/>
+   <file name="assets/gfx/playable/bulletA.png"/>
+   <file name="assets/gfx/playable/bulletB.png"/>
+   <file name="assets/gfx/playable/character_base.lua"/>
+   <file name="assets/gfx/playable/lf_dyn_bullet.lua"/>
+   <file name="assets/gfx/playable/nme_flyer.lua"/>
+   <file name="assets/gfx/playable/nme_flyer_keep.lua"/>
+   <file name="assets/gfx/playable/nme_walker.lua"/>
+   <file name="assets/gfx/playable/nme_walker_boss_A.lua"/>
+   <file name="assets/gfx/playable/player.lua"/>
+   <file name="assets/gfx/playable/slime01.png"/>
+   <file name="assets/gfx/playable/slime02.png"/>
+   <file name="assets/gfx/playable/slime03.png"/>
+   <file name="assets/gfx/playable/warrok_w_kurniawan.png"/>
+   <file name="assets/gfx/playable/y_bot04.png"/>
+   <file name="assets/gfx/playable/y_botXA_result.png"/>
+  </folder>
+  <folder name="ui">
+   <file name="assets/gfx/ui/Cross grey.png"/>
+   <file name="assets/gfx/ui/GUI_Items_0087.png"/>
+   <file name="assets/gfx/ui/GUI_Items_0088.png"/>
+   <file name="assets/gfx/ui/GUI_Items_0089.png"/>
+   <file name="assets/gfx/ui/GUI_Items_0090.png"/>
+   <file name="assets/gfx/ui/GUI_Items_0125_Round-Rect.png"/>
+   <file name="assets/gfx/ui/item3.png"/>
+   <file name="assets/gfx/ui/trp.png"/>
+  </folder>
+  <file name="assets/gfx/lf_joint_prismatic_mpf.lua"/>
+ </folder>
+ <folder name="scenes">
+  <file name="assets/scenes/levelX.lua"/>
+  <file name="assets/scenes/level_select.lua"/>
+  <file name="assets/scenes/menu.lua"/>
+ </folder>
+ <folder name="tiled">
+  <folder name="levels">
+   <folder name="castle">
+    <file name="assets/tiled/levels/castle/obj0014.png"/>
+    <file name="assets/tiled/levels/castle/obj0015.png"/>
+    <file name="assets/tiled/levels/castle/obj0016.png"/>
+    <file name="assets/tiled/levels/castle/obj0017.png"/>
+   </folder>
+   <folder name="cyberpunked">
+    <file name="assets/tiled/levels/cyberpunked/obj0006_result.png"/>
+    <file name="assets/tiled/levels/cyberpunked/obj0007_result.png"/>
+    <file name="assets/tiled/levels/cyberpunked/obj0008_result.png"/>
+   </folder>
+   <folder name="flowers">
+    <file name="assets/tiled/levels/flowers/obj0012.png"/>
+   </folder>
+   <file excludeFromExecution="1" name="assets/tiled/levels/castle.lua"/>
+   <file excludeFromPackage="1" name="assets/tiled/levels/castle.tmx"/>
+   <file excludeFromExecution="1" name="assets/tiled/levels/cyberpunked.lua"/>
+   <file excludeFromPackage="1" name="assets/tiled/levels/cyberpunked.tmx"/>
+   <file excludeFromExecution="1" name="assets/tiled/levels/flowers.lua"/>
+   <file excludeFromPackage="1" name="assets/tiled/levels/flowers.tmx"/>
+  </folder>
+  <file name="assets/tiled/tiled_ellipse.lua"/>
+  <file name="assets/tiled/tiled_levels.lua"/>
+  <file name="assets/tiled/tiled_mvpf.lua"/>
+  <file name="assets/tiled/tiled_polygon.lua"/>
+  <file name="assets/tiled/tiled_ptpf.lua"/>
+  <file name="assets/tiled/tiled_rectangle.lua"/>
+ </folder>
+ <file name="assets/main.lua"/>
+</project>

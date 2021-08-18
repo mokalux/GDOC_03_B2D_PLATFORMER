@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="2021.03.23" orientation="orthogonal" renderorder="right-down" width="276" height="44" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="442">
+ <editorsettings>
+  <export target="cyberpunked.lua" format="lua"/>
+ </editorsettings>
+ <imagelayer id="11" name="Image Layer 1" visible="0" opacity="0.5" offsetx="16" offsety="10">
+  <image source="cyberpunked/obj0006_result.png" width="2166" height="679"/>
+ </imagelayer>
+ <imagelayer id="12" name="Image Layer 2" visible="0" opacity="0.5" offsetx="2182" offsety="-11">
+  <image source="cyberpunked/obj0007_result.png" width="2216" height="699"/>
+ </imagelayer>
+ <objectgroup color="#8000aaff" id="13" name="grounds">
+  <object id="124" name="groundB" x="-276" y="656">
+   <polygon points="0,0 68,16 68,32 0,16"/>
+  </object>
+  <object id="276" name="groundB" x="16" y="688" width="4384" height="16"/>
+  <object id="277" name="groundB" x="0" y="-80" width="16" height="784"/>
+  <object id="278" name="groundB" x="16" y="-80" width="4384" height="16"/>
+  <object id="279" name="groundB" x="4400" y="-80" width="16" height="784"/>
+  <object id="280" name="groundB" x="200" y="656" width="56" height="32"/>
+  <object id="281" name="groundB" x="288" y="608" width="236" height="16"/>
+  <object id="282" name="groundB" x="112" y="544" width="144" height="16"/>
+  <object id="283" name="groundB" x="288" y="480" width="236" height="16"/>
+  <object id="284" name="groundB" x="524" y="472" width="236" height="16"/>
+  <object id="287" name="groundB" x="486" y="116" width="86" height="12"/>
+  <object id="291" name="groundB" x="368" y="116" width="102" height="12"/>
+  <object id="293" name="groundB" x="880" y="536" width="236" height="16"/>
+  <object id="294" name="groundB" x="816" y="480" width="88" height="16"/>
+  <object id="295" name="groundB" x="192" y="64" width="128" height="12"/>
+  <object id="297" name="groundB" x="176" y="64" width="16" height="300"/>
+  <object id="298" name="groundB" x="192" y="208" width="112" height="12"/>
+  <object id="299" name="groundB" x="368" y="128" width="16" height="164"/>
+  <object id="300" name="groundB" x="256" y="280" width="112" height="12"/>
+  <object id="301" name="groundB" x="192" y="352" width="112" height="12"/>
+  <object id="304" name="groundB" x="352" y="408" width="112" height="12"/>
+  <object id="305" name="groundB" x="304" y="56" width="16" height="8"/>
+  <object id="306" name="groundB" x="256" y="136" width="112" height="12"/>
+  <object id="308" name="groundB" x="16" y="124" width="160" height="12"/>
+  <object id="326" name="groundB" x="352" y="124" width="16" height="12"/>
+  <object id="327" name="groundB" x="336" y="132" width="16" height="4"/>
+  <object id="329" name="groundB" x="486" y="235" width="86" height="12" rotation="-15"/>
+  <object id="330" name="groundB" x="486" y="360" width="86" height="12" rotation="-15"/>
+  <object id="331" name="groundB" x="388" y="272" width="86" height="12" rotation="15"/>
+  <object id="333" name="groundB" x="1152" y="460" width="88" height="16"/>
+  <object id="334" name="groundB" x="1240" y="452" width="88" height="16"/>
+  <object id="335" name="groundB" x="1372" y="452" width="68" height="16"/>
+  <object id="336" name="groundB" x="1504" y="452" width="88" height="16"/>
+  <object id="338" name="groundB" x="1684" y="448" width="500" height="16"/>
+  <object id="339" name="groundB" x="688" y="200" width="220.359" height="16" rotation="10"/>
+  <object id="400" name="groundB" x="1504" y="304" width="192" height="16"/>
+  <object id="401" name="groundB" x="1752" y="364" width="80" height="16"/>
+  <object id="402" name="groundB" x="1834" y="364" width="244.223" height="16" rotation="6"/>
+  <object id="408" name="groundB" x="1320" y="240" width="184" height="16"/>
+  <object id="417" name="groundB" x="2224" y="448" width="80" height="8"/>
+  <object id="418" name="groundB" x="2306" y="448" width="244.223" height="7.95237" rotation="10"/>
+ </objectgroup>
+ <objectgroup color="#55ffff" id="8" name="sensors">
+  <object id="232" name="ladder" x="639" y="204" width="8" height="228"/>
+  <object id="344" name="ladder" x="943" y="243" width="8" height="253"/>
+  <object id="361" name="ladder" x="1272" y="244" width="8" height="168"/>
+  <object id="384" name="exit" x="4392" y="564" width="7" height="124"/>
+  <object id="405" name="ladder" x="2200" y="452" width="8" height="196"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" id="18" name="collectibles">
+  <object id="310" name="c01" x="32" y="112">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="311" name="c01" x="40" y="104">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="312" name="c01" x="48" y="112">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="313" name="c01" x="56" y="104">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="314" name="c01" x="64" y="112">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="315" name="c01" x="72" y="104">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="316" name="c01" x="80" y="112">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="317" name="c01" x="88" y="104">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="318" name="c01" x="96" y="112">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="319" name="c01" x="104" y="104">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="320" name="c01" x="112" y="112">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="321" name="c01" x="120" y="104">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="322" name="c01" x="128" y="112">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="323" name="c01" x="136" y="104">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="324" name="c01" x="144" y="112">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="325" name="c01" x="152" y="104">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="345" name="c01" x="720" y="196">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="346" name="c01" x="752" y="201">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="347" name="c01" x="784" y="206">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="348" name="c01" x="816" y="212">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="349" name="c01" x="848" y="218">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="350" name="c01" x="880" y="224">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="364" name="c01" x="216" y="200">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="365" name="c01" x="248" y="200">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="366" name="c01" x="280" y="200">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="367" name="c01" x="344" y="272">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="368" name="c01" x="312" y="272">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="369" name="c01" x="280" y="272">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="370" name="c01" x="216" y="344">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="371" name="c01" x="248" y="344">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="372" name="c01" x="280" y="344">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="373" name="c01" x="528" y="340">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="374" name="c01" x="432" y="276">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="375" name="c01" x="528" y="216">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="376" name="c01" x="568" y="600">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="377" name="c01" x="616" y="600">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="378" name="c01" x="664" y="600">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="379" name="c01" x="712" y="600">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="380" name="c01" x="760" y="600">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+  <object id="381" name="c01" x="808" y="600">
+   <polygon points="0,0 8,0 0,-8 -8,0 0,8 8,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="17" name="ladders">
+  <object id="231" name="ladder" x="631" y="204" width="24" height="264"/>
+  <object id="343" name="ladder" x="936" y="243" width="24" height="289" visible="0"/>
+  <object id="359" name="ladder" x="1264" y="244" width="24" height="205" visible="0"/>
+  <object id="403" name="ladder" x="2192" y="452" width="24" height="232"/>
+ </objectgroup>
+ <objectgroup color="#80ff00ff" id="16" name="ptpfs">
+  <object id="286" name="ptpf" x="600" y="200" width="88" height="4"/>
+  <object id="342" name="ptpf" x="905" y="239" width="85" height="4"/>
+  <object id="354" name="ptpf" x="524" y="611" width="324" height="16"/>
+  <object id="360" name="ptpf" x="1232" y="240" width="88" height="4"/>
+  <object id="399" name="ptpf" x="1397" y="375" width="55" height="15"/>
+  <object id="404" name="ptpf" x="2184" y="448" width="40" height="4"/>
+  <object id="413" name="ptpf" x="1684" y="620" width="508" height="8"/>
+  <object id="414" name="ptpf" x="1744" y="552" width="448" height="8"/>
+  <object id="416" name="ptpf" x="2384" y="620" width="668" height="8"/>
+  <object id="419" name="ptpf" x="2546" y="491" width="62" height="8"/>
+  <object id="420" name="ptpf" x="2546" y="552" width="62" height="8"/>
+  <object id="428" name="ptpf" x="3628" y="620" width="80" height="8"/>
+  <object id="429" name="ptpf" x="3760" y="560" width="80" height="8"/>
+  <object id="430" name="ptpf" x="3888" y="504" width="80" height="8"/>
+  <object id="438" name="ptpf" x="18" y="606" width="108" height="5.7629" rotation="19"/>
+ </objectgroup>
+ <objectgroup color="#80005500" id="2" name="mvpfs">
+  <object id="288" name="mvpf_S84" x="573" y="116" width="27" height="8"/>
+  <object id="351" name="mvpf_N172" x="1117" y="632" width="34" height="8"/>
+  <object id="356" name="mvpf_E190" x="991" y="239" width="50" height="8"/>
+  <object id="382" name="mvpf_S180" x="1336" y="452" width="28" height="8"/>
+  <object id="411" name="mvpf_S164" x="1655" y="448" width="28" height="8"/>
+ </objectgroup>
+ <objectgroup color="#ff0000" id="14" name="playable">
+  <object id="146" name="walkerA" x="1192" y="624" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="147" name="walkerA" x="1604" y="620" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="148" name="walkerA" x="1972" y="628" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="149" name="walkerA" x="2512" y="632" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="353" name="walkerA" x="704" y="624" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="385" name="flyerA" x="472" y="48" width="16" height="16"/>
+  <object id="386" name="flyerKeepA" x="96" y="0" width="16" height="16"/>
+  <object id="390" name="flyerA" x="712" y="264" width="16" height="16"/>
+  <object id="392" name="flyerKeepA" x="712" y="404" width="16" height="16"/>
+  <object id="393" name="flyerA" x="868" y="288" width="16" height="16"/>
+  <object id="394" name="flyerA" x="780" y="336" width="16" height="16"/>
+  <object id="395" name="flyerKeepA" x="868" y="428" width="16" height="16"/>
+  <object id="396" name="flyerKeepA" x="760" y="152" width="16" height="16"/>
+  <object id="397" name="flyerKeepA" x="856" y="168" width="16" height="16"/>
+  <object id="398" name="flyerA" x="1096" y="188" width="16" height="16"/>
+  <object id="406" name="walkerA" x="1836" y="292" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="415" name="walkerA" x="2080" y="560" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="421" name="walkerA" x="2720" y="560" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="422" name="walkerBossA" x="4044" y="468" width="131" height="164">
+   <ellipse/>
+  </object>
+  <object id="436" name="walkerA" x="3405" y="609" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="441" name="player1" x="20" y="532" width="51" height="48">
+   <ellipse/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#aaff7f" id="7" name="fg" locked="1"/>
+ <objectgroup color="#000000" id="10" name="test">
+  <object id="87" name="player1" x="312" y="648" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="223" name="player1" x="2368" y="560" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="224" name="player1j" x="1708" y="560" width="43" height="60">
+   <ellipse/>
+  </object>
+  <object id="266" name="player1j" x="2552" y="492" width="43" height="60">
+   <ellipse/>
+  </object>
+  <object id="285" name="player1" x="1112" y="648" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="296" name="player1" x="200" y="88" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="307" name="player1j" x="552" y="628" width="43" height="60">
+   <ellipse/>
+  </object>
+  <object id="309" name="player1j" x="444" y="300" width="43" height="60">
+   <ellipse/>
+  </object>
+  <object id="362" name="player1" x="1256" y="412" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="363" name="player1" x="956" y="496" width="43" height="40">
+   <ellipse/>
+  </object>
+  <object id="426" name="player1j" x="3840" y="500" width="43" height="60">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>
